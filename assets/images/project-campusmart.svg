@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cmBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" fill="url(#cmBg)" rx="16" />
+  
+  <!-- Browser top -->
+  <rect x="30" y="25" width="540" height="30" rx="8" fill="#0f172a" opacity="0.7" />
+  <circle cx="50" cy="40" r="5" fill="#ef4444" />
+  <circle cx="68" cy="40" r="5" fill="#f59e0b" />
+  <circle cx="86" cy="40" r="5" fill="#10b981" />
+  <rect x="110" y="32" width="220" height="16" rx="8" fill="#065f46" />
+  <text x="120" y="44" font-family="monospace" font-size="10" fill="#a7f3d0">🔒 campusmart.edu/verified-market</text>
+
+  <!-- Marketplace Feed -->
+  <rect x="30" y="65" width="540" height="265" rx="8" fill="#022c22" opacity="0.9" />
+  
+  <!-- Search Bar -->
+  <rect x="50" y="80" width="360" height="32" rx="16" fill="#064e3b" stroke="#10b981" stroke-width="1" />
+  <text x="70" y="101" font-family="system-ui, sans-serif" font-size="12" fill="#a7f3d0">🔍 Search textbooks, lab gear, TI-84 calculators...</text>
+  <rect x="425" y="80" width="125" height="32" rx="16" fill="#10b981" />
+  <text x="487" y="101" font-family="system-ui, sans-serif" font-weight="bold" font-size="12" fill="#022c22" text-anchor="middle">+ Post Item</text>
+
+  <!-- Item Cards Row -->
+  <g transform="translate(50, 130)">
+    <rect width="150" height="180" rx="10" fill="#064e3b" stroke="#047857" stroke-width="1" />
+    <rect x="15" y="15" width="120" height="75" rx="6" fill="#022c22" />
+    <text x="75" y="58" font-size="28" text-anchor="middle">📚</text>
+    <text x="15" y="110" font-family="system-ui, sans-serif" font-weight="bold" font-size="12" fill="#f0fdf4">CLRS Algorithms 4th Ed.</text>
+    <text x="15" y="130" font-family="system-ui, sans-serif" font-size="11" fill="#34d399">$35.00 • Like New</text>
+    <rect x="15" y="145" width="120" height="22" rx="6" fill="#10b981" />
+    <text x="75" y="160" font-family="system-ui, sans-serif" font-weight="bold" font-size="11" fill="#022c22" text-anchor="middle">Contact Student</text>
+  </g>
+
+  <g transform="translate(225, 130)">
+    <rect width="150" height="180" rx="10" fill="#064e3b" stroke="#047857" stroke-width="1" />
+    <rect x="15" y="15" width="120" height="75" rx="6" fill="#022c22" />
+    <text x="75" y="58" font-size="28" text-anchor="middle">📐</text>
+    <text x="15" y="110" font-family="system-ui, sans-serif" font-weight="bold" font-size="12" fill="#f0fdf4">TI-84 Plus CE Silver</text>
+    <text x="15" y="130" font-family="system-ui, sans-serif" font-size="11" fill="#34d399">$50.00 • Good condition</text>
+    <rect x="15" y="145" width="120" height="22" rx="6" fill="#10b981" />
+    <text x="75" y="160" font-family="system-ui, sans-serif" font-weight="bold" font-size="11" fill="#022c22" text-anchor="middle">Contact Student</text>
+  </g>
+
+  <g transform="translate(400, 130)">
+    <rect width="150" height="180" rx="10" fill="#064e3b" stroke="#047857" stroke-width="1" />
+    <rect x="15" y="15" width="120" height="75" rx="6" fill="#022c22" />
+    <text x="75" y="58" font-size="28" text-anchor="middle">🔬</text>
+    <text x="15" y="110" font-family="system-ui, sans-serif" font-weight="bold" font-size="12" fill="#f0fdf4">Chemistry Lab Coat (M)</text>
+    <text x="15" y="130" font-family="system-ui, sans-serif" font-size="11" fill="#34d399">$12.00 • Unused</text>
+    <rect x="15" y="145" width="120" height="22" rx="6" fill="#10b981" />
+    <text x="75" y="160" font-family="system-ui, sans-serif" font-weight="bold" font-size="11" fill="#022c22" text-anchor="middle">Contact Student</text>
+  </g>
+</svg>

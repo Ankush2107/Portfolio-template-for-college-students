@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="nsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#042f2e" />
+      <stop offset="100%" stop-color="#0f766e" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" fill="url(#nsBg)" rx="16" />
+  
+  <!-- Mobile screen mockup centered -->
+  <g transform="translate(190, 20)">
+    <!-- Phone frame -->
+    <rect width="220" height="320" rx="30" fill="#0f172a" stroke="#14b8a6" stroke-width="2" />
+    <!-- Speaker cutout -->
+    <rect x="80" y="10" width="60" height="6" rx="3" fill="#334155" />
+    
+    <!-- Phone inner screen -->
+    <rect x="12" y="24" width="196" height="272" rx="20" fill="#134e4a" />
+    
+    <!-- Vision targeting box -->
+    <rect x="35" y="45" width="150" height="130" rx="12" fill="#042f2e" stroke="#2dd4bf" stroke-width="2" stroke-dasharray="8 6" />
+    <text x="110" y="115" font-size="44" text-anchor="middle">🥗</text>
+    <rect x="55" y="150" width="110" height="18" rx="9" fill="#14b8a6" />
+    <text x="110" y="163" font-family="system-ui, sans-serif" font-weight="bold" font-size="9" fill="#042f2e" text-anchor="middle">AVOCADO SALAD (98%)</text>
+    
+    <!-- Analysis Breakdown -->
+    <rect x="25" y="190" width="170" height="92" rx="10" fill="#0f172a" opacity="0.8" />
+    <text x="35" y="208" font-family="system-ui, sans-serif" font-weight="bold" font-size="11" fill="#f0fdfa">Nutrient Breakdown</text>
+    
+    <text x="35" y="228" font-family="system-ui, sans-serif" font-size="10" fill="#99f6e4">Calories: 340 kcal</text>
+    <rect x="35" y="233" width="150" height="5" rx="2.5" fill="#1e293b" />
+    <rect x="35" y="233" width="95" height="5" rx="2.5" fill="#f59e0b" />
+    
+    <text x="35" y="253" font-family="system-ui, sans-serif" font-size="10" fill="#99f6e4">Protein: 14g • Carbs: 28g</text>
+    <rect x="35" y="258" width="150" height="5" rx="2.5" fill="#1e293b" />
+    <rect x="35" y="258" width="120" height="5" rx="2.5" fill="#10b981" />
+  </g>
+  
+  <!-- Floating Badges on sides -->
+  <g transform="translate(30, 80)">
+    <rect width="135" height="55" rx="10" fill="#0f172a" stroke="#2dd4bf" stroke-width="1" />
+    <text x="15" y="25" font-family="system-ui, sans-serif" font-size="10" fill="#99f6e4">⚡ Latency</text>
+    <text x="15" y="45" font-family="system-ui, sans-serif" font-weight="bold" font-size="16" fill="#ffffff">~450 ms</text>
+  </g>
+
+  <g transform="translate(435, 200)">
+    <rect width="135" height="55" rx="10" fill="#0f172a" stroke="#f59e0b" stroke-width="1" />
+    <text x="15" y="25" font-family="system-ui, sans-serif" font-size="10" fill="#fef3c7">🏆 Award</text>
+    <text x="15" y="44" font-family="system-ui, sans-serif" font-weight="bold" font-size="12" fill="#fbbf24">1st Place Health</text>
+  </g>
+</svg>

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ssBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#312e81" />
+    </linearGradient>
+    <linearGradient id="ssAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" fill="url(#ssBg)" rx="16" />
+  
+  <!-- Window Header -->
+  <rect x="30" y="25" width="540" height="30" rx="8" fill="#0f172a" opacity="0.6" />
+  <circle cx="50" cy="40" r="5" fill="#ef4444" />
+  <circle cx="68" cy="40" r="5" fill="#f59e0b" />
+  <circle cx="86" cy="40" r="5" fill="#10b981" />
+  <rect x="110" y="33" width="160" height="14" rx="7" fill="#334155" />
+  
+  <!-- App Body Layout -->
+  <!-- Sidebar -->
+  <rect x="30" y="65" width="130" height="265" rx="8" fill="#1e293b" opacity="0.8" />
+  <rect x="45" y="85" width="100" height="12" rx="6" fill="#6366f1" />
+  <rect x="45" y="110" width="80" height="8" rx="4" fill="#475569" />
+  <rect x="45" y="128" width="90" height="8" rx="4" fill="#475569" />
+  <rect x="45" y="146" width="75" height="8" rx="4" fill="#475569" />
+  <rect x="45" y="180" width="100" height="10" rx="5" fill="#334155" />
+  <rect x="45" y="200" width="85" height="8" rx="4" fill="#475569" />
+  <rect x="45" y="218" width="95" height="8" rx="4" fill="#475569" />
+  
+  <!-- Main Content Area -->
+  <rect x="175" y="65" width="395" height="265" rx="8" fill="#0f172a" opacity="0.85" />
+  
+  <!-- Banner -->
+  <rect x="195" y="85" width="355" height="70" rx="10" fill="url(#ssAccent)" opacity="0.9" />
+  <text x="215" y="115" font-family="system-ui, sans-serif" font-weight="bold" font-size="16" fill="#ffffff">CS 201: Midterm Study Sprint</text>
+  <text x="215" y="135" font-family="system-ui, sans-serif" font-size="12" fill="#e0e7ff">8 Students Joined • Next meeting: Today, 6:00 PM</text>
+  
+  <!-- Grid Cards -->
+  <g transform="translate(195, 175)">
+    <rect width="170" height="135" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <rect x="15" y="15" width="40" height="18" rx="9" fill="#10b981" opacity="0.2" />
+    <text x="35" y="28" font-family="system-ui, sans-serif" font-size="10" fill="#34d399" font-weight="bold" text-anchor="middle">ACTIVE</text>
+    <rect x="15" y="45" width="110" height="12" rx="6" fill="#e2e8f0" />
+    <rect x="15" y="65" width="140" height="8" rx="4" fill="#64748b" />
+    <rect x="15" y="80" width="100" height="8" rx="4" fill="#64748b" />
+    <rect x="15" y="102" width="60" height="18" rx="9" fill="#6366f1" />
+    <text x="45" y="115" font-family="system-ui, sans-serif" font-size="10" fill="#ffffff" text-anchor="middle">Join Room</text>
+  </g>
+  
+  <g transform="translate(380, 175)">
+    <rect width="170" height="135" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <rect x="15" y="15" width="50" height="18" rx="9" fill="#f59e0b" opacity="0.2" />
+    <text x="40" y="28" font-family="system-ui, sans-serif" font-size="10" fill="#fbbf24" font-weight="bold" text-anchor="middle">UPCOMING</text>
+    <rect x="15" y="45" width="120" height="12" rx="6" fill="#e2e8f0" />
+    <rect x="15" y="65" width="130" height="8" rx="4" fill="#64748b" />
+    <rect x="15" y="80" width="90" height="8" rx="4" fill="#64748b" />
+    <rect x="15" y="102" width="60" height="18" rx="9" fill="#334155" />
+    <text x="45" y="115" font-family="system-ui, sans-serif" font-size="10" fill="#cbd5e1" text-anchor="middle">RSVP</text>
+  </g>
+</svg>
