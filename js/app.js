@@ -659,3 +659,4 @@ function updateThemeIcon(theme) {
 // Make functions globally accessible for the visual customizer
 window.renderPortfolio = renderPortfolio;
 window.showToast = showToast;
+

@@ -344,3 +344,4 @@ function copyDataToClipboard() {
     window.showToast('Could not access clipboard.');
   });
 }
+
